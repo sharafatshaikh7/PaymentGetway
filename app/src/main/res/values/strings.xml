@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Payment Getway</string>
+
+    <string name="typeofpayment">Types of SDK For Payment Gatway</string>
+    <string name="ImageDiscription">ImageDiscription</string>
+    <string name="start_transaction">Start Transaction</string>
+</resources>

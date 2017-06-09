@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.paymentgetway.MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/_15sp"
+        android:typeface="normal"
+        android:textColor="@color/white"
+        android:padding="@dimen/_10sp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/typeofpayment"/>
+
+    <View
+        android:layout_below="@+id/heading"
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sp"/>
+
+    <ImageView
+        android:id="@+id/btn_paypal"
+        android:background="@drawable/corner"
+        android:padding="@dimen/_5sp"
+        android:layout_below="@+id/view"
+        android:src="@drawable/paypal_logo1"
+        android:layout_margin="@dimen/_20sp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sp"
+        android:contentDescription="@string/ImageDiscription"/>
+
+
+    <ImageView
+        android:id="@+id/btn_paytm"
+        android:layout_below="@+id/btn_paypal"
+        android:background="@drawable/corner"
+        android:src="@drawable/paytm_logo"
+        android:padding="@dimen/_5sp"
+        android:layout_margin="@dimen/_20sp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sp"
+        android:contentDescription="@string/ImageDiscription"/>
+
+</RelativeLayout>
